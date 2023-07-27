@@ -37,7 +37,7 @@ jobs:
           name: Heroku Login
           command: heroku login -i
           environment:
-            HEROKU_API_KEY: $HEROKU_API_KEY
+            HEROKU_API_KEY: HEROKU_API_KEY
 
       # Set Heroku remote URL
       - run:
