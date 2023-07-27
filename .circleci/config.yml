@@ -11,7 +11,7 @@ jobs:
       # Debug HEROKU_API_KEY
       - run:
           name: Debug HEROKU_API_KEY
-          command: echo "HEROKU_API_KEY: $HEROKU_API_KEY"
+          command: 'echo "HEROKU_API_KEY: $HEROKU_API_KEY"'
 
       # Install Heroku CLI
       - run:
