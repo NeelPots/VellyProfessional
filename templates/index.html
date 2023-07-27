@@ -9,7 +9,7 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Finance Business HTML5 Template</title>
+    <title>Velly Pro</title>
 
     <!-- Bootstrap core CSS -->
     {% comment %} static\vp\vendor\bootstrap\css\bootstrap.min.css {% endcomment %}
@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="static/vp/assets/css/templatemo-finance-business.css">
     <link rel="stylesheet" href="static/vp/assets/css/owl.css">
 <!--
+
+    
 
 Finance Business TemplateMo
 
@@ -62,7 +64,7 @@ https://templatemo.com/tm-545-finance-business
       </div>
     </div>
 
-    <header class="">
+    {% comment %} <header class="">
       <nav class="navbar navbar-expand-lg" style="position: static;" id='navbar'>
         <div class="container">
          <a class="navbar-brand d-none d-lg-block" href="home">
@@ -94,7 +96,45 @@ https://templatemo.com/tm-545-finance-business
           </div>
         </div>
       </nav>
-    </header>
+    </header> {% endcomment %}
+
+     <header class="">
+    <nav class="navbar navbar-expand-lg" style="position: static;" id='navbar'>
+      <div class="container">
+        <!-- Use the same <a> element for both logo variations -->
+        <a class="navbar-brand" href="home">
+          <img src="static/vp/assets/images/logo.png" 
+          {% comment %} style="width: 300px;"  {% endcomment %}
+          alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Move the collapsible menu inside a div with class "collapse navbar-collapse" -->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services">Our Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
     <!-- Page Content -->
     <!-- Banner Starts Here -->

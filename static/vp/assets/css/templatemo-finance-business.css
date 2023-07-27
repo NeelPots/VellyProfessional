@@ -292,6 +292,16 @@ header .navbar {
 #navbarResponsive {
   z-index: 999;
 }
+ .navbar-brand img {
+      max-width: 100%;
+      height: auto;
+    }
+     /* Custom CSS to adjust logo size for mobile */
+    @media (max-width: 767px) {
+      .navbar-brand img {
+        width: 150px; /* Adjust the width as needed for mobile */
+      }
+    }
 .navbar-collapse {
   text-align: center;
 }
