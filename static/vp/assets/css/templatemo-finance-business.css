@@ -38,7 +38,7 @@ h6 {
 }
 
 a.filled-button {
-  background-color: #33066a;
+  background: linear-gradient(102.57deg, #33066a, #bf057b 100%, #33066a 0);
   color: #fff;
   font-size: 13px;
   text-transform: uppercase;
@@ -292,16 +292,6 @@ header .navbar {
 #navbarResponsive {
   z-index: 999;
 }
- .navbar-brand img {
-      max-width: 100%;
-      height: auto;
-    }
-     /* Custom CSS to adjust logo size for mobile */
-    @media (max-width: 767px) {
-      .navbar-brand img {
-        width: 150px; /* Adjust the width as needed for mobile */
-      }
-    }
 .navbar-collapse {
   text-align: center;
 }
@@ -313,7 +303,7 @@ header .navbar {
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.5px;
-  color: #fff;
+  color: #000000;
   transition: all 0.5s;
   margin-top: 5px;
 }
