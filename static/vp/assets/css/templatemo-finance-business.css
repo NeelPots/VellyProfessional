@@ -409,7 +409,7 @@ header .navbar {
   text-align: center;
   font-size: 36px;
   font-family: "FontAwesome";
-  color: #fff;
+  color: #bf057b;
   z-index: 5;
   outline: none;
   cursor: pointer;
@@ -428,7 +428,7 @@ header .navbar {
   text-align: center;
   font-size: 36px;
   font-family: "FontAwesome";
-  color: #fff;
+  color: #bf057b;
   z-index: 5;
   outline: none;
   cursor: pointer;
@@ -467,14 +467,14 @@ ul.slick-dots {
   font-size: 44px;
   font-weight: 700;
   letter-spacing: 2.5px;
-  color: #fff;
+  color: #bf057b;
   overflow: hidden;
   animation: fadeOutLeft 1s both;
 }
 
 .Modern-Slider .item p {
   max-width: 570px;
-  color: #fff;
+  color: #000000;
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
