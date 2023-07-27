@@ -7701,6 +7701,15 @@ button.bg-dark:focus {
 #navbar {
   position: static;
 }
+/* Hide the logo on mobile (smaller screens) */
+.navbar-brand.d-lg-none {
+  display: none;
+}
+
+/* Show the logo on desktop (larger screens) */
+.navbar-brand.d-none.d-lg-block {
+  display: block;
+}
 
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
