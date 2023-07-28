@@ -316,11 +316,11 @@ header .navbar {
   border-bottom: 3px solid #33066a;
 }
 .navbar .navbar-toggler-icon {
-  background-image: none;
+  background-color: transparent;
 }
 .navbar .navbar-toggler {
-  border-color: #fff;
-  background-color: #fff;
+  border-color: transparent;
+  background-color: transparent;
   height: 36px;
   outline: none;
   border-radius: 0px;
@@ -1056,7 +1056,7 @@ footer .contact-form ::placeholder {
 footer .contact-form button.filled-button {
   background-color: transparent;
   color: #fff;
-  background-color: #33066a;
+  background: linear-gradient(102.57deg, #33066a, #bf057b 100%, #33066a 0);
   border: none;
   font-size: 13px;
   text-transform: uppercase;

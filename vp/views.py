@@ -12,3 +12,12 @@ def services(request):
 
 def contact(request):
     return render(request, 'contact.html')
+
+def packages(request):
+    return render(request, 'packages.html')
+
+def career(request):
+    return render(request, 'career.html')
+
+def news(request):
+    return render(request, 'news.html')
