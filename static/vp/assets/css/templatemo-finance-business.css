@@ -388,7 +388,6 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-  background-image: url(../images/slide_01.png);
   background-image: url(../images/slideEmp1.png);
 }
 
@@ -397,7 +396,7 @@ header .navbar {
 }
 
 .Modern-Slider .item-3 .img-fill {
-  background-image: url(../images/slide_03.jpg);
+  background-image: url(../images/slideEmp2.png);
 }
 
 .Modern-Slider .NextArrow {
