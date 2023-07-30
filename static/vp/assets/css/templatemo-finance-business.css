@@ -331,8 +331,8 @@ header .navbar {
 .navbar .navbar-toggler-icon:after {
   content: "\f0c9";
   color: #33066a;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 35px;
+  line-height: 51px;
   font-family: "FontAwesome";
 }
 
