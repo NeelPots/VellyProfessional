@@ -334,6 +334,7 @@ header .navbar {
   font-size: 35px;
   line-height: 51px;
   font-family: "FontAwesome";
+  padding-left: 20px;
 }
 
 /* Banner Style */
