@@ -185,17 +185,18 @@ https://templatemo.com/tm-545-finance-business
       </div>
     </div>
 
-    <div class="callback-form contact-us">
+    <div class="callback-form">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>Send us a <em>message</em></h2>
+              <h2>Request a <em>call back</em></h2>
             </div>
           </div>
           <div class="col-md-12">
             <div class="contact-form">
-              <form id="contact" action="" method="get">
+              <form id="contact" action="/home" method="post">
+                {% csrf_token %}
                 <div class="row">
                   <div class="col-lg-4 col-md-12 col-sm-12">
                     <fieldset>
@@ -251,7 +252,7 @@ https://templatemo.com/tm-545-finance-business
                       <button
                         type="submit"
                         id="form-submit"
-                        class="filled-button"
+                        class="border-button"
                       >
                         Send Message
                       </button>
@@ -264,6 +265,8 @@ https://templatemo.com/tm-545-finance-business
         </div>
       </div>
     </div>
+    <br>
+    <br>
 
     <div id="map">
       <!-- How to change your own map point
@@ -314,7 +317,8 @@ https://templatemo.com/tm-545-finance-business
           <div class="col-md-3 footer-item last-item">
             <h4>Contact Us</h4>
             <div class="contact-form">
-              <form id="contact footer-contact" action="#" method="post">
+              <form id="contact footer-contact" action="/footer" method="post">
+                {% csrf_token %}
                 <div class="row">
                   <div class="col-lg-12 col-md-12 col-sm-12">
                     <fieldset>

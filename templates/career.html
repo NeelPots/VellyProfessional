@@ -330,7 +330,7 @@ https://templatemo.com/tm-545-finance-business
     </div><!--end row-->
 </div>
 
-    <div class="callback-form callback-services" style="padding-top:0px">
+   <div class="callback-form">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -340,7 +340,8 @@ https://templatemo.com/tm-545-finance-business
           </div>
           <div class="col-md-12">
             <div class="contact-form">
-              <form id="contact" action="" method="post">
+              <form id="contact" action="/home" method="post">
+                {% csrf_token %}
                 <div class="row">
                   <div class="col-lg-4 col-md-12 col-sm-12">
                     <fieldset>
@@ -457,7 +458,8 @@ https://templatemo.com/tm-545-finance-business
           <div class="col-md-3 footer-item last-item">
             <h4>Contact Us</h4>
             <div class="contact-form">
-              <form id="contact footer-contact" action="#" method="post">
+              <form id="contact footer-contact" action="/footer" method="post">
+                {% csrf_token %}
                 <div class="row">
                   <div class="col-lg-12 col-md-12 col-sm-12">
                     <fieldset>

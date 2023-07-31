@@ -11,4 +11,5 @@ urlpatterns = [
    path('packages', views.packages, name = 'packages'),
    path('career', views.career, name='career'),
    path('news', views.news, name='news'),
+   path('footer', views.footer, name='footer'),
 ]
